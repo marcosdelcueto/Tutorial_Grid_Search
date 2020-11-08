@@ -4,6 +4,10 @@ This repository contains the code, data and images used in the article published
 ---
 ## Contents
 
+- **grid_search.py**: main program with the implementation of the grid search, plus plots of data and hyperparameter exploration.
+
+- **Figures**: directory containing the images used in the post.
+
 ---
 
 ## Prerequisites
