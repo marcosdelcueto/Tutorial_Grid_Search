@@ -1,5 +1,5 @@
 # Tutorial Grid Search
-This repository contains the code, data and images used in the article published in Towards Data Science
+This repository contains the code, data and images used in the article published in Towards Data Science: https://towardsdatascience.com/grid-search-in-python-from-scratch-hyperparameter-tuning-3cca8443727b
 
 ---
 ## Contents
