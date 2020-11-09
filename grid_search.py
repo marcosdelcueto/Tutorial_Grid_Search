@@ -79,7 +79,7 @@ def KRR_function(hyperparams,X,y):
     # Calculate error metric of test and predicted values: rmse
     rmse = np.sqrt(mean_squared_error(y_test_total, y_pred_total))
     r_pearson,_=pearsonr(y_test_total,y_pred_total)
-    print('KRR k-fold cross-validation . alpha: %7.4f, gamma: %7.4f, RMSE: %7.4f, r: %7.4f' %(alpha_value,gamma_value,rmse,r_pearson))
+    print('KRR k-fold cross-validation . alpha: %7.6f, gamma: %7.4f, RMSE: %7.4f, r: %7.4f' %(alpha_value,gamma_value,rmse,r_pearson))
     return rmse
 ######################################################################################################
 def create_hyperparams_grid(X,y):
